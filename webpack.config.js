@@ -35,7 +35,7 @@ const config = {
         new ModuleFederationPlugin({
           name: 'primaryApp',
           remotes: {
-                'secondaryApp': "secondaryApp@https://<domain-name>/remoteEntry.js",
+                'secondaryApp': "secondaryApp@https://secondary-wmf.web.app/remoteEntry.js",
           },
           shared: {
               react: {
