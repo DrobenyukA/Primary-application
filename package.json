@@ -1,0 +1,22 @@
+{
+  "name": "primary-project",
+  "version": "1.0.0",
+  "description": "Test of webpack federation plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "Module",
+    "federation"
+  ],
+  "author": "Drobenyuka\u001b[D.\u001b[C\u001b[DA",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.10.1"
+  }
+}
