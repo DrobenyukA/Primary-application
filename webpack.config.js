@@ -33,9 +33,9 @@ const config = {
     },
     plugins: [
         new ModuleFederationPlugin({
-          name: 'primary-app',
+          name: 'primaryApp',
           remotes: {
-                'secondary-app': "secondary-app@http://localhost:3000/remoteEntry.js",
+                'secondaryApp': "secondaryApp@https://<domain-name>/remoteEntry.js",
           },
           shared: {
               react: {
